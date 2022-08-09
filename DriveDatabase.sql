@@ -34,7 +34,8 @@ CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `username` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `password` varchar(100) NOT NULL
+  `password` varchar(100) NOT NULL,
+`booked` int(11) 
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
